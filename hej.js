@@ -13,7 +13,8 @@ let emptyHTML = ''
 
 for (let drinkItems of data.drinks){
 emptyHTML = ` <h1>${drinkItems.strDrink}</h1>
-<img src=${drinkItems.strDrinkThumb}></img>`
+<img src=${drinkItems.strDrinkThumb}>
+`
 }
         listItems.innerHTML = emptyHTML;
     } 
